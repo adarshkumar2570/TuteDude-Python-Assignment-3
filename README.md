@@ -18,8 +18,7 @@ This repository contains two basic Python programs demonstrating fundamental con
 This program calculates the factorial of a number entered by the user.
 
 ### Features
-- Takes user input
-- Uses a loop to compute factorial
+- Uses recursion to compute factorial
 - Returns and prints the result
 
 ### File
