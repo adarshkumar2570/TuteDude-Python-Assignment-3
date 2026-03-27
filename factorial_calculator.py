@@ -1,8 +1,12 @@
-def factorial():
-    n = (int(input("Enter a number: ")))
-    factorial = 1
-    for i in range(1, n+1):
-        factorial *= i
-    return(factorial)
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
 
-print(f"The factorial is: {factorial()}")
+    else:
+        return (n* factorial(n-1))
+
+print(factorial(0))
+print(factorial(1))
+print(factorial(2))
+print(factorial(5))
+
